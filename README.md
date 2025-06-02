@@ -6,10 +6,11 @@ This repository contains a machine learning project focused on the classificatio
 The primary objective of this project is to assist individuals with mobility challenges who use a rollator by providing real-time surface detection. Since the level of difficulty in walking can vary depending on the surface, this system has the potential to enhance safety and comfort by identifying and adapting to different walking conditions.
 
 ## Project Structure
-- `Exploratory Data Analysis.ipynb`: Jupyter Notebook for initial data exploration, visualization, and understanding.
-- `Preprocessing.ipynb`: Jupyter Notebook detailing the data cleaning, transformation, and feature engineering steps.
-- `Machine Learning Classification.ipynb`: Jupyter Notebook that implements the SVM classifier, trains the model, and evaluates its performance.
-- `datasets/`: Directory containing the data files used in the project.
+- [Exploratory Data Analysis](Exploratory%20Data%20Analysis.ipynb): Jupyter Notebook for initial data exploration, visualization, and understanding.
+- [Preprocessing](Preprocessing.ipynb): Jupyter Notebook detailing the data cleaning, transformation, and feature engineering steps.
+- [Machine Learning Classification](Machine%20Learning%20Classification.ipynb): Jupyter Notebook that implements the SVM classifier, trains the model, and evaluates its performance.
+- [datasets/](datasets/): Directory containing the data files used in the project.
+- [data collection images/](data%20collection%20images/): Directory containing images taken during data collection.
 
 ## Dataset Description
 The primary data for this project was collected from an Inertial Measurement Unit (IMU) mounted on a rollator. 3-axes accelerometer and gyroscope data were recorded across five distinct surface types:
@@ -37,12 +38,12 @@ The primary data for this project was collected from an Inertial Measurement Uni
 
 ## How to Run
 The project is structured as a sequence of Jupyter Notebooks. It is recommended to run them in the following order:
-1. `Exploratory Data Analysis.ipynb`: To understand the dataset.
-2. `Preprocessing.ipynb`: To prepare the data for modeling.
-3. `Machine Learning Classification.ipynb`: To train and evaluate the classification model.
+1. [Exploratory Data Analysis](Exploratory%20Data%20Analysis.ipynb): To understand the dataset.
+2. [Preprocessing](Preprocessing.ipynb): To prepare the data for modeling.
+3. [Machine Learning Classification](Machine%20Learning%20Classification.ipynb): To train and evaluate the classification model.
 
 ## Results
-Achieved 93% accuracy in classifying 5 surfaces.
+Achieved 93% test accuracy and F1 score of 93% using a Linear SVM model in classifying 5 surfaces.
 
 ## Contributing
 Contributions are welcome. Please open an issue or submit a pull request.
